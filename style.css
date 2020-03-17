@@ -11,6 +11,11 @@ body {
   color: #333333;
 }
 
+h2 {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
 input {
   width: 100%;
   border: none;
@@ -30,6 +35,13 @@ div.single-result div.image {
   background-color: #eeeeee;
   height: 400px;
   margin: 0 0 16px 0;
+  padding: 32px;
+}
+
+div.single-result img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 div.single-result span.loading {
